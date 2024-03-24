@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+  box-sizing: border-box;
+}
+body{
+   font-family: cursive; 
+   text-align: center;
+   background-image: url("bljack.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding:  0.5rem;;
+}
+#dealer-cards img{
+    height:200px;
+    width:auto;
+    margin:5px;
+}
+#your-cards img{
+    height:300px;
+    width:auto;
+    margin:5px;
+}
+#hit ,#stay{
+    height:50px;
+    width:150px;
+    font-size:2.5rem;
+    font-family: monospace;
+    border:3.5px solid black;
+    border-radius:10px;
+}
+
+#stay{background-image:linear-gradient(to left,rgb(0, 255, 0),rgb(129, 191, 134),rgb(7, 255, 7));}
+#hit{background-image:linear-gradient(to left,rgb(255, 3, 3),rgb(227, 80, 80),rgb(246, 8, 8));}
+
+button:hover{filter:brightness(200%);}
+
+h2,p{
+   text-align: center;
+    background-color: antiquewhite;
+    margin:2px;
+    padding: 0.5em;
+    border:2px solid brown;
+    border-radius: 15px;
+    
+}
+img:hover{
+    border:7px solid yellow;
+    border-radius: 15px;
+}
